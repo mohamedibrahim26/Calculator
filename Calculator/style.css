@@ -1,0 +1,26 @@
+.calculator{
+            width: 187px;
+            height: 202px;
+            border: 1px solid red;
+            margin: 20px auto;
+            position: relative;
+            background: linear-gradient(45deg, rgb(169,172, 176),white);
+        
+        }
+        input[type="text"] {
+            width: 96%;
+            height: 30px;
+            font-size: 25px;
+        }
+        button{
+            border-radius: 50%;
+            width: 21%;
+            padding: 6px;
+            margin: 2px;
+            border: 1px solid grey;
+            box-shadow: 0 0 2px 2px rgb(152, 151, 151);
+        }
+
+        button:hover {
+            box-shadow: 0 0 2px 2px rgb(0, 217, 255);
+        }
